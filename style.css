@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(15, 40px);
+  grid-template-rows: repeat(15, 40px);
+  gap: 2px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player1 {
+  background-color: red;
+}
+
+.player2 {
+  background-color: blue;
+}
+
+/* Agrega más estilos para el tablero y los jugadores según sea necesario */
